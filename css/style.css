@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+img, video, iframe {
+    vertical-align: middle;
+}
+.mw-bg {
+    width: 100%;
+}
+.mw-img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.masan-wrapper {
+    background: url('../image/bg.jpg ') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.mw-item {
+    display: table;
+}
+.mwi-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.mwiw-main {
+    position: relative;
+    width: 100%;
+}
+.mw-content {
+    width: 45.15625%;
+    position: absolute;
+    right: 0;
+    padding-right: 6.71875%;
+}
+.mwc-text {
+    font-family: Arial, sans-serif;
+    font-size: 1.145vw;
+    line-height: 1.71875vw;
+    margin-bottom: 2.1875vw;
+}
+.mw-c1 {
+    top: 32.5%;
+}
+.mw-c2 {
+    top: 36%;
+}
+.mw-c3 {
+    top: 30.5%;
+}
+.mw-c4 {
+    top: 33.5%;
+}
+.mw-c5 {
+    top: 33.5%;
+}
+.mw-c6 {
+    top: 24%;
+}
+.mw-c7 {
+    top: 28%;
+}
+.mw-c8 {
+    top: 25.5%;
+}
+.mw-c9 {
+    top: 25%;
+}
+.mw-c10 {
+    top: 28.5%;
+}
+
+.mw-dot {
+    position: fixed;
+    top: 12%;
+    right: 2.1875%;
+    z-index: 1003;
+}
+.swiper-pagination-bullet {
+    display: block;
+    margin-bottom: 5px!important;
+}
+.swiper-pagination-bullets {
+    left: auto!important;
+    bottom: auto!important;
+    width: auto!important;
+}
+.swiper-pagination-bullet-active {
+    background-color: #c73205;
+}
+
+@media screen and (max-width: 1366px) {
+    .mwiw-main {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mw-content {
+        padding-right: 0;
+    }
+    .mw-c2 {
+        top: 34%;
+    }
+    .mw-c3 {
+        top: 26.5%;
+    }
+    .mw-c6 .mwc-text {
+        margin-bottom: 1.4vw;
+    }
+    .mw-c8 {
+        top: 23.5%;
+    }
+    .mw-c9 .mwc-text {
+        font-size: 1.12vw;
+        line-height: 1.62vw;
+        margin-bottom: 1.4vw;
+    }
+}
+@media  screen and (max-width: 1280px) {
+    .mwiw-main {
+        width: 100%;
+    }
+    .mw-content {
+        padding-right: 6.71875%;
+    }
+    .mw-c2 {
+        top: 36%;
+    }
+    .mw-c3 {
+        top: 30.5%;
+    }
+    .mw-c6 .mwc-text {
+        margin-bottom: 2.1875vw;
+    }
+    .mw-c8 {
+        top: 25.5%;
+    }
+    .mw-c9 .mwc-text {
+        font-size: 1.145vw;
+        line-height: 1.71875vw;
+        margin-bottom: 2.1875vw;
+    }
+}

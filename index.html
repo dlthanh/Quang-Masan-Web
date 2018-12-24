@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        $(document).ready(function() {
+            var masan = new Swiper('.masan-wrapper', {
+                speed: 0,
+                slidePerView: 1,
+                effect: 'fade',
+                fadeEffect: {
+                    crossFade: true
+                },
+                mousewheelControl: true,
+                simulateTouch: false,
+                pagination: '.mw-dot',
+                paginationClickable: true,
+                onSlideChangeStart: function() {
+                    new WOW().init();
+                }
+            });
+
+            new WOW().init();
+        });
+    </script>
+</head>
+<body>
+    <div class="masan-wrapper swiper-container">
+        <div class="swiper-wrapper">
+            <div class="mw-cover mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/cover-bg.png" alt="" class="mw-bg">
+                        <img src="image/cover-img.png" alt="" class="mw-img wow fadeIn" data-wow-duration="1s">
+                        <img src="image/cover-img2.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.5s">
+                        <img src="image/cover-title.png" alt="" class="mw-img wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="1s">
+                        <img src="image/cover-credit.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1.5s">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s1-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s1-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s1-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c1 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Quay lại Nga sau hơn 10 năm du học tại đây, ông Nguyễn Đăng Quang bắt đầu sự nghiệp kinh doanh của mình vào năm 1996 bằng việc bán nước mắm, nước chấm cho cộng đồng 200.000 người Việt tại Nga cùng nhóm bạn bè thân thiết. Thị trường 150 triệu dân Nga vào giai đoạn chuyển đổi này có nhu cầu lớn về thực phẩm, nhưng phải mất một vài năm, ông Quang mới chuyển việc sản xuất mì để bán cho cộng đồng người Việt thành mì bán cho cả người Nga.</p>
+
+                            <p class="mwc-text">Với triết lý “Mỗi người Nga một gói mì là đủ sản lượng nhà máy cả năm”, Masan tiến hành hàng loạt thay đổi trong sản xuất, từ chuyển đổi vị mì, đến sửa lại mẫu mã, bao bì để phù hợp với thị hiếu người Nga.</p>
+
+                            <p class="mwc-text">Ông xây dựng nhà máy đầu tiên với công suất 30 triệu gói/tháng, trở thành công ty Việt thành công nhất về về xuất khẩu sang thị trường Nga thời điểm đó với doanh số đạt trên 100 triệu USD mỗi năm. Ông cũng được mệnh danh là "người dạy cho người Nga ăn mì gói và tương ớt”.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s2-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s2-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s2-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c2 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Theo học 10 năm tại Belarus, tốt nghiệp tại Học viện Khoa học Quốc gia Belarus, có học hàm Tiến sĩ vật lý Hạt nhân, ông Quang về nước và từng hẹn với lòng không bao giờ quay lại Liên Xô nữa. Với ông, lúc đó vì quá nghèo nên đi du học nghe thì sang lắm nhưng lại chịu bao nỗi ê chề.</p>
+
+                            <p class="mwc-text">Tuy nhiên, khi về nước công tác tại viện khoa học Việt Nam, ông Quang chỉ nhận được mức lương 67.000 đồng, không đủ ăn tiêu, chẳng thể nuôi sống gia đình. Ông thừa nhận tấm bằng Tiến sĩ Vật Lý hạt nhân chẳng được trọng vọng hơn gì cái bằng của bác “phó mộc”.</p>
+
+                            <p class="mwc-text">Không tìm được việc gì khả dĩ hơn, trong đầu ông lúc này quay cuồng với suy nghĩ làm sao nuôi vợ con chứ chưa dám nghĩ tới những chuyện cao xa hơn là làm giàu. 2 năm sau, ông lại xách valy sang lại Nga, dù tiền mua vé máy bay cũng phải vay từ bạn bè. Nhờ thành công từ tương ớt, nước tương, mì gói thương hiệu Mivimex, ông trở thành triệu phú USD tại Nga. Năm 2001, ông đưa Masan về nước, chính thức xây dựng đế chế hàng tiêu dùng nhanh ở Việt Nam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s3-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s3-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s3-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c3 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Hồi phục ngoạn mục sau tác động tiêu cực do giá thịt lợn giảm mạnh đầu năm 2017, cổ phiếu MSN của Masan ghi nhận mức tăng tới 50% thị giá chỉ trong nửa năm. Tốc độ tăng thị giá này kéo theo việc nhiều cổ đông của doanh nghiệp trở thành triệu phú và tỷ phú USD trong thời gian ngắn.</p>
+
+                            <p class="mwc-text">Là cổ đông chính của Công ty cổ phần Masan (Masan Corp) – đơn vị đang sở hữu công ty đang trực tiếp và gián tiếp nắm giữ 50% cổ phần của Masan Group – ông Nguyễn Đăng Quang được ngầm hiểu là người sở hữu nhiều cổ phần nhất. Số cổ phần cùng tài sản riêng trong tay ông Quang được Bloomberg định giá khoảng 1,2 tỷ USD, qua đó, đưa vị này trở thành người Việt thứ ba được nêu danh trong danh sách tỷ phú thế giới của Bloomberg.</p>
+
+                            <p class="mwc-text">Tuy nhiên, ông Quang vẫn chưa có tên trong danh sách tỷ phú của Forbes, vốn được cập nhật thường niên vào tháng 3 hàng năm. Nếu được vinh danh trong năm nay, sau tỷ phú bất động sản và bán lẻ Phạm Nhật Vượng, tỷ phú hàng không và ngân hàng Nguyễn Thị Phương Thảo, Việt Nam sẽ có vị tỷ phú thứ ba là ông Nguyễn Đăng Quang - tỷ phú trong ngành thực phẩm, thức ăn chăn nuôi và khai khoáng.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s4-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s4-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s4-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c4 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Dẫu được định giá tài sản ở mức 1,2 tỷ USD trên truyền thông nước ngoài, nhưng trong bảng xếp hạng người giàu trên sàn chứng khoán Việt Nam, ông Nguyễn Đăng Quang lại chưa từng được điểm danh.</p>
+
+                            <p class="mwc-text">Theo báo cáo quản trị của MSN, số cổ phần đứng tên trực tiếp của ông Nguyễn Đăng Quang chỉ là 10 cổ phiếu, chưa từng thay đổi trong suốt gần 10 năm lên sàn. Với lượng cổ phiếu ít ỏi, tài sản trên sàn chứng khoán Việt Nam của vị này chỉ được ghi nhận ở mức chưa đầy 1 triệu đồng, tức là tương đương với cổ đông nhỏ lẻ.</p>
+
+                            <p class="mwc-text">Tuy nhiên, quyền lực thực sự của vị “cổ đông nhỏ lẻ” đến từ chức vụ của ông trong các công ty thuộc Masan: Chủ tịch HĐQT kiêm TGĐ CTCP tập đoàn Masan (Masan Group – MSN); Chủ tịch HĐQT kiên TGĐ CTCP Masan (Masan Corp); Thành viên HĐQT Masan Consumer; Phó Chủ tịch thứ nhất Techcombank, Chủ tịch công ty Khai thác chế biến khoáng sản Núi Pháo và Thành viên HĐQT Vinacafe Biên Hòa…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s5-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s5-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s5-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c5 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Là một trong những tỷ phú Đông  u thời kỳ đầu, ông Nguyễn Đăng Quang trải qua 6 năm kinh doanh chính thức tại nước Nga trước khi trở về Việt Nam. Bên cạnh dấu ấn cá nhân, ông Quang còn nổi tiếng khi là cặp bài trùng với ông Hồ Hùng Anh – Phó chủ tịch Masan Group, Chủ tịch Techcombank – từ khi cùng nhau xây nghiệp ở nước ngoài đến khi về nước.</p>
+
+                            <p class="mwc-text">Không phải là dân kinh doanh chuyên nghiệp, hai người bạn ban đầu chỉ kinh doanh nước mắm, nước tương, sau đó mở rộng ra mì gói cho người Nga. Cú huých mạnh mẽ nhất là việc hai cựu du học sinh chinh phục người Nga ăn tương ớt – món gia vị cay chảy nước mắt vốn không có trong truyền thống của quốc gia này. Sau khi xây dựng được nhà máy, công ty của hai ông xuất khẩu mỗi tháng 50-70 container hàng sang Nga, và sớm ghi danh trong danh sách tỷ phú Việt kiều tại đây.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s6-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s6-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s6-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c6 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Trở về Việt Nam từ năm 2001, nhưng dự án đầu tiên của Masan về thành lập chuỗi 25 cửa hàng tiện lợi lại gặp thất bại. Sau 6 tháng, nhận thấy thị trường chưa tiếp nhận loại hình phân phối này, ông Quang đóng cửa các cửa hàng, quay sang kinh doanh nhóm sản phẩm thực phẩm.</p>
+
+                            <p class="mwc-text">Chin-su là thương hiệu đầu tiên Masan ra mắt tại Việt Nam, tự chủ động nguồn nguyên liệu bằng một nhà máy chế biến tại Phú Quốc. Thống nhất thị trường bằng cách đưa ngành sản xuất truyền thống này vào quy mô công ngiệp, cùng lợi thế quy mô lớn giúp Masan giảm giá thành, tạo nên văn hóa tiêu dùng mới.</p>
+
+                            <p class="mwc-text">Sau Chin-su, Masan thừa thắng xông lên với nước chấm Tam Thái Tử, Nam Ngư, mì gói với Omachi, Tiến Vua…, và nhanh chóng chiếm vị trí số 1 về sản phẩm nước chấm trong căn bếp người Việt. Theo ước tính của Kantar Worldpanel Vietnam, 95% các hộ gia đình Việt Nam đang sử dụng ít nhất một sản phẩm của Masan.</p>
+
+                            <p class="mwc-text">Kể từ năm 2012, Masan thực hiện nhiều thương vụ M&A, vươn rộng hoạt động thông qua việc thâu tóm một loạt công ty hàng đầu trong nhiều lĩnh vực như Vinacafe (với giá khoảng 60 triệu USD), Cám con cò (Proconco – thương vụ trị giá 96 triệu USD), dự án khai thác khoáng sản Núi Pháo trị giá hàng trăm triệu USD từ Dragon Capital…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s7-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s7-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s7-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c7 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Dù là ông chủ của một công ty chuyên hàng tiêu dùng nhanh, nhưng ông Quang lại ít khi xuất hiện với những phát ngôn mang tính thực dụng cao, gắn lợi ích, mục tiêu “sát sườn” của doanh nghiệp. Nhiều người từng làm việc với ông Chủ tịch này tiết lộ, những phát biểu của ông thường khá trừu tượng, mang tính triết học, rất ít người có thể hiểu hết được, thậm chí “có vẻ hơi lẩm cẩm trong cái thế giới đầy thực dụng này”. Ngay cả ông Quang cũng thừa nhận mình “hơi dị”.</p>
+
+                            <p class="mwc-text">Tuy nhiên, triết lý “lẩm cẩm” của ông lại là một yếu tố quan trọng tạo nên thành công của Masan, nhất là về niềm tin mãnh liệt vào giá trị Việt Nam. Nhờ đó, chỉ 2 năm sau khi lên sàn chứng khoán, Masan đã trở thành công ty tỷ đô, và đến nay, chỉ riêng Masan Consumer (công ty con thuộc Masan Group) đã được định giá 4,5 tỷ USD.</p>
+
+                            <p class="mwc-text">Không chỉ “hơi dị” trong phát ngôn, ông Quang còn được cộng sự và đối tác miêu tả là một nhà chiến lược am hiểu về tài chính với phong cách quản lý dòng tiền bảo thủ, rất “chắt chiu” khi tiêu tiền nhưng lại rất bài bản trong chiến lược và công bố thông tin. Masan cũng thuộc số ít các công ty Việt Nam thu hút được nhiều định chế tài chính nước ngoài hàng đầu tham gia góp vốn.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s8-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s8-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s8-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c8 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Ngay cả khi Masan niêm yết vài năm trên thị trường chứng khoán, vẫn có không ít người cho rằng đây là công ty do những Việt kiều Nga sáng lập nên hay người nước ngoài làm chủ. Điều này làm ông Chủ tịch rất tự ái và có phần hơi buồn, thậm chí phản ứng bằng cách lấy chứng minh thư nhân dân của mình ra cho những người còn nghi ngờ xem xét.</p>
+
+                            <p class="mwc-text">“Ở Masan, những người sáng lập toàn là người Việt Nam cả, ai cũng có chứng minh thư nhân dân hết!".</p>
+
+                            <p class="mwc-text">Với Masan, ông Quang và các cộng sự ước mơ xây dựng nên những thương hiệu hàng tiêu dùng không chỉ nổi tiếng ở Việt Nam mà còn có khả năng vươn ra thế giới. Ngay từ khi bắt đầu, ông Quang và những thành viên sáng lập Masan đã khắc ghi một trong 4 giá trị cốt lõi của công ty là tinh thần dân tộc. Ông mong muốn có thể xây dựng nên một công ty mà ở đó mọi người đều có những giấc mơ lớn và nghĩ: Vietnam can do (Người Việt Nam làm được).</p>
+
+                            <p class="mwc-text">“Trước đây họ làm việc đơn thuần vì miếng cơm manh áo và chỉ là người làm thuê. Giờ họ cùng chúng tôi tạo dựng nên một công ty Việt Nam danh tiếng mà những tập đoàn lớn nước ngoài cũng phải coi trọng. Họ chiến đấu vì ‘màu cờ sắc áo’ và trở thành những người chủ cùng với chúng tôi”.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s9-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s9-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s9-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c9 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Là một trong những tập đoàn tư nhân hàng đầu Việt Nam, Masan có một bộ máy nhân sự lãnh đạo cấp cao thuộc hàng VIP trên thị trường. Ông chủ của tập đoàn thú nhận, mức lương ở Masan "không dở, cũng nằm trong top nào đấy, đặc biệt là cán bộ lãnh đạo nhưng người tài về Masan chắc chắn không hoàn toàn vì tiền".</p>
+
+                            <p class="mwc-text">Những người bạn đồng hành của ông Quang hầu hết là những nhân tài nhiều kinh nghiệm, năng lực đến từ các quốc gia khác. Đó là Madhur Maini, một CEO "cứng tay", người từng làm việc nhiều năm ở vị trí quản lý cao cấp cho Merrill Lynch, Deutsche Bank.</p>
+
+                            <p class="mwc-text">Sau Madhur Maini, Seokhee Won – nguyên Phó chủ tịch cấp cao phụ trách mảng kinh doanh chăm sóc da tại châu Á và nhãn hàng Ponds trên toàn cầu của Tập đoàn Unilever đến với Masan, giữ chức CEO Masan Consumer kiêm Phó tổng giám đốc tập đoàn.</p>
+
+                            <p class="mwc-text">Dominic Edward Salter Price - cựu Giám đốc toàn quốc của J.P. Morgan ở Việt Nam và Ấn Độ, từng làm việc tại ngân hàng Standard Chartered, Credit Suisse First Boston và Paribas Capital Markets - là một thành viên HĐQT, hay Michael Hung Nguyen - cựu chuyên gia tư vấn tại JP Morgan ở New York - giữ chức giám đốc tài chính... cũng là những gương mặt nổi bật trong đội quản lý cấp cao của Masan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mw-item swiper-slide">
+                <div class="mwi-wrapper">
+                    <div class="mwiw-main">
+                        <img src="image/s10-quote.png" alt="" class="mw-bg wow fadeInLeft" data-wow-duration="0.6s">
+                        <img src="image/s10-illus.png" alt="" class="mw-img wow fadeIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                        <img src="image/s10-title.png" alt="" class="mw-img wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.6s">
+
+                        <div class="mw-content mw-c10 wow fadeIn" data-wow-duration="0.6s" data-wow-delay="1s">
+                            <p class="mwc-text">Xây dựng một công ty tồn tại trong hơn 20 năm, từ bước khởi đầu nhỏ nhoi đến một trong những tập đoàn đa ngành lớn nhất Việt Nam, nhưng ông Quang vẫn không thôi ám ảnh bởi một điều: Đam mê.</p>
+
+                            <p class="mwc-text">Với vị tỷ phú USD thứ ba của Việt Nam, đam mê là thử thách lớn nhất của một người thành công. Khi Masan còn là một công ty nhỏ, nhuệ khí hừng hực, ai cũng nhiệt tình không nề hà việc gì nên sẵn sàng làm mọi thứ để có thể thành công. Năng lượng lớn, sáng tạo và không ngừng tiến bước. “Nhưng khi đã trở thành công ty lớn mạnh, người ta dễ sinh bệnh thích hoành tráng, quan liêu, cầu kỳ nhưng không hiệu quả”.</p>
+
+                            <p class="mwc-text">Để giải bài toán này, ông Quang cho biết mình luôn cố gắng để những người bạn đồng hành của mình thấm nhuần tôn chỉ: "Tôi có năng lực làm điều đấy, tôi rất muốn điều đó xảy ra, và tôi sẽ làm điều đó". Theo vị chủ tịch Masan, chỉ khi làm như vậy công ty mới có thể đạt trị giá 20 tỷ USD vào năm 2020.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mw-dot"></div>
+    </div>
+</body>
+</html>
